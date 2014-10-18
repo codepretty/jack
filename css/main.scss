@@ -39,11 +39,23 @@ $on-laptop:        800px;
     }
 }
 
+@mixin laptop() {
+    @media screen and (min-width: $on-palm) {
+        @content;
+    }
+}
+
+@mixin desktop() {
+    @media screen and (min-width: $on-laptop) {
+        @content;
+    }
+}
 
 
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
         "base",
+        "global",
         "layout",
         "syntax-highlighting",
         "bday-theme"

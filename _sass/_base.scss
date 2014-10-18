@@ -9,6 +9,9 @@ dl, dd, ol, ul, figure {
 }
 
 
+* {
+    border-sizing: border-box;
+}
 
 /**
  * Basic styling
