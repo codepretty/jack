@@ -1,0 +1,15 @@
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TweenMax.min.js"></script>
+<script src="js/jquery.scrollmagic.js"></script>
+
+<script>
+$(function() {
+	// init controller
+	var controller = new ScrollMagic();
+
+	// assign handler "scene" and add it to Controller
+	var scene = new ScrollScene({duration: 50})
+	                .setPin("#pin-me")   // pins the element for a scroll distance of 100px
+	                .addTo(controller);
+});
+</script>
