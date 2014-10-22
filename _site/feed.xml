@@ -4,10 +4,10 @@
     <title>JackLundeen.is</title>
     <description>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
 </description>
-    <link>http://jacklundeen.is/</link>
-    <atom:link href="http://jacklundeen.is/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Wed, 22 Oct 2014 09:52:34 -0700</pubDate>
-    <lastBuildDate>Wed, 22 Oct 2014 09:52:34 -0700</lastBuildDate>
+    <link>http://codepretty.github.io/</link>
+    <atom:link href="http://codepretty.github.io/feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Wed, 22 Oct 2014 13:43:44 -0700</pubDate>
+    <lastBuildDate>Wed, 22 Oct 2014 13:43:44 -0700</lastBuildDate>
     <generator>Jekyll v2.4.0</generator>
     
       <item>
@@ -28,8 +28,8 @@ print_hi(&amp;#39;Tom&amp;#39;)
 
 </description>
         <pubDate>Sun, 12 Oct 2014 05:31:05 -0700</pubDate>
-        <link>http://jacklundeen.is/jekyll/update/2014/10/12/welcome-to-jekyll/</link>
-        <guid isPermaLink="true">http://jacklundeen.is/jekyll/update/2014/10/12/welcome-to-jekyll/</guid>
+        <link>http://codepretty.github.io/jekyll/update/2014/10/12/welcome-to-jekyll/</link>
+        <guid isPermaLink="true">http://codepretty.github.io/jekyll/update/2014/10/12/welcome-to-jekyll/</guid>
         
         
         <category>jekyll</category>
