@@ -1,66 +1,78 @@
 @mixin border-radius($value) {
-	-webkit-border-radius: $value;
-	-moz-border-radius: $value;
-	border-radius: $value;
+  -webkit-border-radius: $value;
+  -moz-border-radius: $value;
+  border-radius: $value;
 }
 
 .bday {
-	header {
-		background-color: $brand-color;
-		color: #fff;
-		padding-top: 30px;
-		padding-bottom: 30px;
+  header {
+    background-color: $brand-color;
+    color: #fff;
+    padding-top: 30px;
+    padding-bottom: 30px;
 
-		.wrapper {
-			text-align: center;
-		}
-	}
+    .wrapper {
+      text-align: center;
+    }
+  }
+}
+
+.favorites {
+  dt {
+    font-weight: bold;
+  }
+
+  dd {
+    border-bottom: 1px solid $grey-color-light;
+    padding: 5px 0 15px 15px;
+    margin-bottom: 30px;
+  }
 }
 
 .col-6 {
-	float: left;
-	width: 70%;
+  float: left;
+  width: 70%;
 }
 
 .col-2 {
-	float: left;
-	width: 30%;
+  float: left;
+  width: 30%;
 }
 
 .rounded-img {
-	@include border-radius(50%);
-	margin: auto;
+  @include border-radius(50%);
+  margin: auto;
 
-	-webkit-background-clip: padding-box;
-	-moz-background-clip: padding;
-	background-clip: padding-box;
+  -webkit-background-clip: padding-box;
+  -moz-background-clip: padding;
+  background-clip: padding-box;
 }
 
 .feature {
-	@include laptop {
-		.img-container {
-			float: left;
-			width: 49%;
-		}
+  @include laptop {
+    .img-container {
+      float: left;
+      width: 49%;
+    }
 
-		.content {
-			float: right;
-			width: 49%;
-			margin-left: 2%;
-		}
-	}
+    .content {
+      float: right;
+      width: 49%;
+      margin-left: 2%;
+    }
+  }
 }
 
 .col-3-up {
-	li {
-		@include laptop {
-	        float: left;
-	        width: 32%;
-	        margin-left: 2%;
+  li {
+    @include laptop {
+      float: left;
+      width: 32%;
+      margin-left: 2%;
 
-	        &:first-child {
-	        	margin-left: 0;
-	        }
-	    }
-	}
+      &:first-child {
+        margin-left: 0;
+      }
+    }
+  }
 }

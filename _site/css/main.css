@@ -467,6 +467,13 @@ pre {
   .bday header .wrapper {
     text-align: center; }
 
+.favorites dt {
+  font-weight: bold; }
+.favorites dd {
+  border-bottom: 1px solid #e8e8e8;
+  padding: 5px 0 15px 15px;
+  margin-bottom: 30px; }
+
 .col-6 {
   float: left;
   width: 70%; }
