@@ -4,40 +4,73 @@
   border-radius: $value;
 }
 
+.fun-heading {
+  font-family: 'Gloria Hallelujah', cursive;
+  font-size: 40px;
+  text-align: center;
+}
+
+.responsive-background-image {
+  min-height: 500px;
+  background: transparent
+              url(../images/header.jpg)
+              no-repeat
+              scroll
+              bottom center / 100%
+              border-box border-box;
+}
+
+.quote {
+  position: absolute;
+  left: 10%;
+  bottom: -5%;
+  background-color: $grey-color-dark;
+  -webkit-transform: rotate(-8deg);
+  z-index: 999;
+  width: 138px;
+  padding: 20px;
+  text-align: center;
+  color: #fff;
+}
+
 .bday {
   header {
     background-color: $brand-color;
-    color: #fff;
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding-bottom: 10px;
+    position: relative;
 
-    .wrapper {
-      text-align: center;
+    h1 {
+      color: #fff;
+      padding-top: 20px;
+    }
+
+    .responsive-background-image {
+      margin: 30px;
     }
   }
-}
 
-.favorites {
-  dt {
-    font-weight: bold;
+  .wrapper {
+    padding-top: 60px;
+    padding-bottom: 60px;
   }
 
-  dd {
-    border-bottom: 1px solid $grey-color-light;
-    padding: 5px 0 15px 15px;
-    margin-bottom: 30px;
+  .details {
+    background-color: $grey-color-light;
+    text-align: center;
   }
 }
 
-.col-6 {
-  float: left;
-  width: 70%;
-}
+// .favorites {
+//   dt {
+//     font-weight: bold;
+//   }
 
-.col-2 {
-  float: left;
-  width: 30%;
-}
+//   dd {
+//     border-bottom: 1px solid $grey-color-light;
+//     padding: 5px 0 15px 15px;
+//     margin-bottom: 30px;
+//   }
+// }
 
 .rounded-img {
   @include border-radius(50%);
@@ -48,31 +81,31 @@
   background-clip: padding-box;
 }
 
-.feature {
-  @include laptop {
-    .img-container {
-      float: left;
-      width: 49%;
-    }
+// .feature {
+//   @include laptop {
+//     .img-container {
+//       float: left;
+//       width: 49%;
+//     }
 
-    .content {
-      float: right;
-      width: 49%;
-      margin-left: 2%;
-    }
-  }
-}
+//     .content {
+//       float: right;
+//       width: 49%;
+//       margin-left: 2%;
+//     }
+//   }
+// }
 
-.col-3-up {
-  li {
-    @include laptop {
-      float: left;
-      width: 32%;
-      margin-left: 2%;
+// .col-3-up {
+//   li {
+//     @include laptop {
+//       float: left;
+//       width: 32%;
+//       margin-left: 2%;
 
-      &:first-child {
-        margin-left: 0;
-      }
-    }
-  }
-}
+//       &:first-child {
+//         margin-left: 0;
+//       }
+//     }
+//   }
+// }

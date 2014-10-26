@@ -459,28 +459,42 @@ pre {
   .highlight .il {
     color: #099; }
 
+.fun-heading {
+  font-family: 'Gloria Hallelujah', cursive;
+  font-size: 40px;
+  text-align: center; }
+
+.responsive-background-image {
+  min-height: 500px;
+  background: transparent url(../images/header.jpg) no-repeat scroll bottom center/100% border-box border-box; }
+
+.quote {
+  position: absolute;
+  left: 10%;
+  bottom: -5%;
+  background-color: #424242;
+  -webkit-transform: rotate(-8deg);
+  z-index: 999;
+  width: 138px;
+  padding: 20px;
+  text-align: center;
+  color: #fff; }
+
 .bday header {
   background-color: #2a7ae2;
-  color: #fff;
-  padding-top: 30px;
-  padding-bottom: 30px; }
-  .bday header .wrapper {
-    text-align: center; }
-
-.favorites dt {
-  font-weight: bold; }
-.favorites dd {
-  border-bottom: 1px solid #e8e8e8;
-  padding: 5px 0 15px 15px;
-  margin-bottom: 30px; }
-
-.col-6 {
-  float: left;
-  width: 70%; }
-
-.col-2 {
-  float: left;
-  width: 30%; }
+  padding-bottom: 10px;
+  position: relative; }
+  .bday header h1 {
+    color: #fff;
+    padding-top: 20px; }
+  .bday header .responsive-background-image {
+    margin: 30px; }
+.bday .wrapper {
+  padding-top: 60px;
+  padding-bottom: 60px; }
+.bday .details {
+  background-color: #e8e8e8;
+  text-align: center; }
 
 .rounded-img {
   -webkit-border-radius: 50%;
@@ -490,20 +504,3 @@ pre {
   -webkit-background-clip: padding-box;
   -moz-background-clip: padding;
   background-clip: padding-box; }
-
-@media screen and (min-width: 600px) {
-  .feature .img-container {
-    float: left;
-    width: 49%; }
-  .feature .content {
-    float: right;
-    width: 49%;
-    margin-left: 2%; } }
-
-@media screen and (min-width: 600px) {
-  .col-3-up li {
-    float: left;
-    width: 32%;
-    margin-left: 2%; }
-    .col-3-up li:first-child {
-      margin-left: 0; } }
