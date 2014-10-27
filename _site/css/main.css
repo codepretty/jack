@@ -113,16 +113,16 @@ pre {
  * Wrapper
  */
 .wrapper {
-  max-width: -webkit-calc(800px - (30px * 2));
-  max-width: calc(800px - (30px * 2));
+  max-width: -webkit-calc(1000px - (30px * 2));
+  max-width: calc(1000px - (30px * 2));
   margin-right: auto;
   margin-left: auto;
   padding-right: 30px;
   padding-left: 30px; }
   @media screen and (max-width: 800px) {
     .wrapper {
-      max-width: -webkit-calc(800px - (30px));
-      max-width: calc(800px - (30px));
+      max-width: -webkit-calc(1000px - (30px));
+      max-width: calc(1000px - (30px));
       padding-right: 15px;
       padding-left: 15px; } }
 
@@ -465,36 +465,60 @@ pre {
   text-align: center; }
 
 .responsive-background-image {
-  min-height: 500px;
-  background: transparent url(../images/header.jpg) no-repeat scroll bottom center/100% border-box border-box; }
+  background: transparent url(../images/header/header_600x337_high60.jpg) no-repeat scroll bottom center/100% border-box border-box; }
 
 .quote {
-  position: absolute;
-  left: 10%;
-  bottom: -5%;
   background-color: #424242;
-  -webkit-transform: rotate(-8deg);
-  z-index: 999;
-  width: 138px;
-  padding: 20px;
-  text-align: center;
-  color: #fff; }
-
-.bday header {
-  background-color: #2a7ae2;
-  padding-bottom: 10px;
-  position: relative; }
-  .bday header h1 {
-    color: #fff;
-    padding-top: 20px; }
-  .bday header .responsive-background-image {
-    margin: 30px; }
-.bday .wrapper {
-  padding-top: 60px;
-  padding-bottom: 60px; }
-.bday .details {
-  background-color: #e8e8e8;
+  color: #fff;
+  font-size: 16px;
+  padding: 40px 10px;
+  margin-top: 40px;
   text-align: center; }
+  @media screen and (min-width: 600px) {
+    .quote {
+      position: absolute;
+      left: 10%;
+      bottom: 0;
+      -webkit-transform: rotate(-8deg);
+      z-index: 999;
+      width: 138px;
+      padding: 20px;
+      margin-top: 0; } }
+
+.bday {
+  font-size: 22px;
+  line-height: 1.65; }
+  .bday header {
+    background-color: #2a7ae2;
+    padding-bottom: 10px; }
+    .bday header .wrapper {
+      padding-top: 20px;
+      padding-bottom: 30px;
+      position: relative; }
+    @media screen and (min-width: 600px) {
+      .bday header .quote {
+        bottom: -7%; } }
+    @media screen and (min-width: 800px) {
+      .bday header .quote {
+        bottom: -8%; } }
+    .bday header h1 {
+      color: #fff;
+      padding-top: 20px; }
+    .bday header .responsive-background-image {
+      margin: 30px; }
+  .bday .wrapper {
+    padding-top: 60px;
+    padding-bottom: 60px; }
+  .bday .details {
+    background-color: #e8e8e8;
+    text-align: center; }
+  .bday .rsvp {
+    background-color: #fdfdfd; }
+    .bday .rsvp .wrapper {
+      text-align: center; }
+      @media screen and (min-width: 600px) {
+        .bday .rsvp .wrapper {
+          max-width: 400px; } }
 
 .rounded-img {
   -webkit-border-radius: 50%;
