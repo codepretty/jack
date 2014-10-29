@@ -508,7 +508,8 @@ pre {
       margin: 30px; }
   .bday .wrapper {
     padding-top: 60px;
-    padding-bottom: 60px; }
+    padding-bottom: 60px;
+    text-align: center; }
   .bday .details {
     background-color: #e8e8e8;
     text-align: center; }
