@@ -467,6 +467,18 @@ pre {
 .responsive-background-image {
   background: transparent url(../images/header/header_600x337_high60.jpg) no-repeat scroll bottom center/100% border-box border-box; }
 
+.video-wrapper {
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 25px;
+  height: 0; }
+  .video-wrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; }
+
 .quote {
   background-color: #424242;
   color: #fff;
